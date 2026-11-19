@@ -1,10 +1,10 @@
 -- Example Usage: https://raw.githubusercontent.com/pickapicksmm/Pickas-Hub/refs/heads/main/Icons/ExampleUsage.lua
 
-local BASE = "https://raw.githubusercontent.com/pickapicksmm/Pickas-Hub/refs/heads/main/Icons/icons.lua"
+local BASE = "https://raw.githubusercontent.com/pickapicksmm/Asterveil-Hub/refs/heads/main/Library/Icons.lua"
 
 local IconModule = {
     Version = "2.0.0",
-    Name = "PICKA'S HUB IconsModule",
+    Name = "Asterveil Hub IconsModule",
     IconsType = "lucide",
     BaseURL = BASE,
     Icons = {},
