@@ -1,5 +1,5 @@
 -- Asterveil UI | Example
-local Library = loadstring(readfile("AsterveilUI.lua"))() -- or loadstring(game:HttpGet("YOUR_RAW_URL"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/pickapicksmm/Asterveil-Hub/refs/heads/main/Library/Source/AsterveilUI.lua))()
 
 local Window = Library:CreateWindow({
 	Title = "Asterveil Hub",
