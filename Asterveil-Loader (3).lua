@@ -3,7 +3,7 @@
 	Library: Library/Source/Asterveil-UiLibrary.lua  (Space Universe: black & silver)
 ]]
 
-local LIB_URL = "https://raw.githubusercontent.com/pickapicksmm/Asterveil-Hub/refs/heads/main/Library/Source/Asterveil-UiLibrary.lua"
+local LIB_URL = "https://raw.githubusercontent.com/pickapicksmm/Asterveil-Hub/refs/heads/main/Asterveil-UiLibrary.lua"
 local LOCAL_FILE = "Asterveil-UiLibrary.lua" -- kung nasa workspace folder ng executor, ito muna ang gagamitin
 
 ------------------------------------------------------------ load library
