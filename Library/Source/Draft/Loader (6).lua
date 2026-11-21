@@ -1,7 +1,7 @@
 -- ASTERVEIL HUB loader + full API demo
 -- 1) Upload PickasHub.lua to your GitHub repo.  2) Paste this whole script into your executor.
 -- Library v4.0.0 (ASTERVEIL HUB, space theme). The info button next to Search opens the built-in Info / Console / Configure / Settings panel. Every API of the library is used below, so you can copy any part into your own script.
-local URL = "https://raw.githubusercontent.com/PickasHub/Library.Source/refs/heads/main/PickasHub.lua"
+local URL = "https://raw.githubusercontent.com/pickapicksmm/Asterveil-Hub/refs/heads/main/Library/Image/blackhole.png"
 
 local function fail(msg)
     msg = "ASTERVEIL HUB ERROR:\n" .. tostring(msg)
