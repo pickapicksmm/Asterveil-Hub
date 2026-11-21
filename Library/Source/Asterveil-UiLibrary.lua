@@ -1,23 +1,3 @@
---[[
-    ASTERVEIL HUB UI Library  (Roblox / Luau)
-    Space theme: deep-space glass, twinkling stars, nebula glow, shooting stars, user card.
-    Mobile + Desktop. Everything follows Library.Theme.Accent (Theme Color) live.
-
-    local Library = loadstring(game:HttpGet("RAW_LINK"))()
-    local Window  = Library:CreateWindow({ Title = "ASTERVEIL HUB" })
-    local Tab = Window:AddTab({ Title = "Main", Icon = "house" })
-    local Sub = Tab:AddSubTab({ Title = "Farm", Icon = "sprout" })
-    Sub:AddToggle({ Title = "Auto Farm", Flag = "AutoFarm", Callback = function(v) end })
-
-    Locks:  Window:AddTab({ Title = "VIP", Locked = true, LockText = "VIP", LockMessage = "Buy VIP to unlock" }); any element: Locked = true; :SetLocked(false)
-    Info:   the info button (next to Search) opens the built-in Info / Console / Configure / Settings panel; Window:ShowInfo() does the same.
-    Boxes:  local left, right = Sub:AddColumns(2); left:AddGroupbox({ Title = "Farm", Icon = "sprout" }):AddToggle({ Title = "Auto Farm" })
-    Sidebar: Window:SetSidebar(true) / :ToggleSidebar() collapses the sidebar to icons only.
-    Auto:   texts that are not in the built-in list are translated online once and cached (Library.AutoTranslate = false to stop). New tabs/elements added later are picked up automatically (a sweeper re-queues anything still untranslated and retries failed requests).
-    Console: Library:Log("text", "Success") writes to the Console tab; print() / warn() / errors show up there too.
-    Text:   Library:T("Save") translates a built-in string; Library:SetLanguage("Japanese") switches language; Library:Translate("Hello", "Japanese", cb); Library:Prefetch({ words }); Library:SetText(label, "text") keeps a label translated. Library.TranslateDelay = seconds between requests (default 0.5).
-    Icons:  Lucide icons from Footagesus/Icons (Icon = "house"). "bolt" is drawn in code.
-]]
 
 local TS = game:GetService("TweenService")
 local UIS = game:GetService("UserInputService")
