@@ -1,3 +1,4 @@
+-- EXAMPLE : https://raw.githubusercontent.com/pickapicksmm/Asterveil-Hub/refs/heads/main/Library/Source/Draft/Asterveil-Loader%20(2).lua
 
 local TS = game:GetService("TweenService")
 local UIS = game:GetService("UserInputService")
