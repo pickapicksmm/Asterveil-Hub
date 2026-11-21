@@ -11,7 +11,7 @@
 ]]
 
 ---------------------------------------------------------------- load the library
-local LIBRARY_URL = "https://raw.githubusercontent.com/pickapicksmm/Asterveil-Hub/refs/heads/main/Library/Asterveil.lua"
+local LIBRARY_URL = "https://raw.githubusercontent.com/pickapicksmm/Asterveil-Hub/refs/heads/main/Library/Source/Draft/Asterveil-fixed%20(1).lua"
 
 local function loadLibrary()
     local env = (getgenv and getgenv()) or _G
